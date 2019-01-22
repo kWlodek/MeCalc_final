@@ -3,11 +3,15 @@ package com.wlodek.mecalc.Hauptseiten;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Hinzufuegen extends AppCompatActivity {
+import com.wlodek.mecalc.R;
+
+public class Hinzu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hinzufuegen);
+        setContentView(R.layout.activity_hinzu);
     }
+
+
 }
