@@ -19,7 +19,8 @@ public class DBHelper extends SQLiteOpenHelper {
                 Entry.TABLE_NAME + "(" +
                 Entry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "+
                 Entry.COLUMN_NAME + " TEYT NOT NULL, "+
-                Entry.COLUMN_KCAL + " INTEGER NOT NULL"+
+                Entry.COLUMN_KCAL + " INTEGER NOT NULL, "+
+                Entry.COLUMN_TIMESTAMP + " TIMESTAMP DEFAULT CURRENT_TIMESTAMP"+
                 ");";
 
         db.execSQL(SQL_CREATE_SPEISEN_TABLE);

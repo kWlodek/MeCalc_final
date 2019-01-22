@@ -10,6 +10,7 @@ public class Contract {
         public static final String TABLE_NAME = "Speisen";
         public static final String COLUMN_NAME = "name";
         public static final  String COLUMN_KCAL = "Kcal";
+        public static final String COLUMN_TIMESTAMP ="time";
     }
 
 }
