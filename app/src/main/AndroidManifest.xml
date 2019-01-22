@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Hauptseiten.Infoseite" />
         <activity android:name=".Hauptseiten.Rechner" />
-        <activity android:name=".Hauptseiten.Tagebuch"></activity>
+        <activity android:name=".Hauptseiten.Tagebuch" />
+        <activity android:name=".Hauptseiten.Hinzufuegen"></activity>
     </application>
 
 </manifest>
