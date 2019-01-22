@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hauptseiten.MainActivity">
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Informationen"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:layout_constraintBottom_toTopOf="@+id/btn_rechner"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="148dp" />
+
+    <Button
+        android:id="@+id/btn_rechner"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_info"
+        android:layout_marginTop="24dp"
+        android:text="Rechner"
+        app:layout_constraintBottom_toTopOf="@+id/btn_tagebuch"
+        tools:layout_editor_absoluteX="165dp" />
+
+    <Button
+        android:id="@+id/btn_tagebuch"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Button"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rechner"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_rechner"
+        tools:layout_editor_absoluteX="148dp" />
+</RelativeLayout>
