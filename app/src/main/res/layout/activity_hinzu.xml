@@ -4,6 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Hauptseiten.Hinzu">
+    tools:context=".Hauptseiten.Hinzu"
+    android:layout_margin="8dp">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name der Speise"/>
+    <EditText
+        android:id="@+id/edt_kcal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edt_name"
+        android:hint="Kcal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_hinzu_add"
+        android:text="Hinzufügen"
+        android:layout_below="@id/edt_kcal"
+        android:layout_marginTop="16dp" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_hinzu_add">
+
+    </android.support.v7.widget.RecyclerView>
+
 
 </RelativeLayout>
